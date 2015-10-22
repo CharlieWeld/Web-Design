@@ -1,0 +1,10 @@
+table.fixed {table-layout:fixed;  word-break:break-all;}
+table.fixed td {overflow:hidden;}
+tr.tr1 td:nth-of-type(1) {width:300px;}
+tr.tr2 td:nth-of-type(1) {width:200px;}
+tr.tr3 td:nth-of-type(1) {width: 150px;}
+tr.tr3 td:nth-of-type(2) {width:50px;}
+
+
+table.fixed {border: 2px solid black; padding: 5px; border-spacing: 3px;}
+th, td {border: 2px solid black;}

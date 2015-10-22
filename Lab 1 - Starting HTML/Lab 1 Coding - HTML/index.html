@@ -1,0 +1,60 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Hello World</h1>
+	<p>This is a paragraph tag</p>
+	<a name="top">The anchor link will bring you back here!</a>	
+	<h2>This is a second level of heading</h2>
+	<h6>This is the sixth level of heading</h6>
+
+	<a href="http://www.bbc.co.uk/sport/formula1">Click here for F1 news</a>
+
+	<p>In part 1 of this two-part GitHub tutorial, we examined the main uses<br>
+	for GitHub and began the process of signing up for a GitHub account and creating our<br>
+	own local repository for code.<p>
+
+	<p>Now that these steps have been accomplished, let's add the first part of your project<br>
+	now by making your first commit to HitHub. When we last left off, we'd created a local<br>
+	repository called MyProject, which, when viewed in the comman line, looks like this sreenshot.</p>
+
+	<p>On your next line, typ: touch Readme.txt. This, agian, is not a Git command. It's another<br>
+	standard navigational command prompt. touch really means "create." Whatever you write after<br>
+	that is the name of the thing created. If you go to your folder using Finder or the Start <br>
+	menu, you'll see an empty Readme.txt file is now inside. You could have also made something<br>
+	like "Readme.doc" or "Kiwi.gif", just for kicks</p>
+
+	<p>You can clearly see your new Readme file. But can Git? Let's find out. Type: git status<br>
+	The command line, usually so passive up to this point, will reply with a few lines of text <br>
+	similar to this: #On branch master<br>
+	#Untracked files:<br>
+	#(use "git add . . . " to include in what will be committed)<br>
+	#<br>
+	#<br>
+	# Readme.txt<br>
+	What's going on? First of all, you're on the master branch<br>
+	of your project, which makes sense since we haven't "branched off"<br>
+	of it. There's no reason to, since we're working alone. Secondly<br>
+	Readme.txt is listed as an "untracked" file, which means Git is ignoring<br>
+	it for now. To make Git notice that the file is there, type:<br>
+	git add Readme.txt<br>
+	Notice how the command line gave you a hint there> All right, we've<br>
+	added our first file, so it's time to take a "snapshot" of the project so <br>
+	far, or "commite" it:<br>
+	git commit -m "Add Readme.txt"</p>
+	<br><br>
+
+	<p>The -m flag, as noted in the terms directory in Part 1,<br>
+	simply indicates that the following text should be read as a message. <br>
+	Notice the commit message is written in present tense. You should<br>
+	always write your commands in present tense because version control is all <br>
+	about flexibility through time. Your're not writing about what a comiit did,<br>
+	because you may always revert to earlier. You're writing about what a commit does.<br>
+
+
+	<a href="#top">Click here to go to top of page</a>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<style>
+
+#outer_table { border: 1px solid black;
+	    
+	height: 80vh;
+        width: 70%;
+        margin-left: auto; margin-right: auto;
+        
+	}
+
+
+tr#banner {height: 20%; background-color: yellow;}
+tr#nav {height: 10%; background-color: blue;}
+
+tr#content {height: 60%;}
+tr#content  {background-color: red; width: 40%;}                           
+
+
+#inner_table {border: 1px solid white; background-color: red;
+height: 100%; width: 100%;}
+
+
+
+
+tr#footer {height: auto; background-color: black;}
+#footer p {color: white;}
+
+
+</style>
+</head>
+
+<body>
+<table id="outer_table">
+	
+	<tr id="banner">
+		<td colspan="2">
+		  <h1>This is a very large heading!!!!!</h1>
+		</td>
+	</tr>
+	<tr id="nav">
+		<td colspan="2"><h2>This is the navigation part of the table!!!</h2></td>
+	</tr>
+
+	<tr >	
+		<td id="content"><p>Main Content part 1</p></td>
+		<td><table id="inner_table">
+				<tr>
+					<td>Top</td>
+				</tr>
+				<tr>
+					<td>Bottom</td>
+				</tr>
+		    </table>
+			
+			
+	</td>
+	</tr>
+
+	<tr id="footer">
+	       <td colspan="2"><p> This is the footer </p></td>
+	</tr>
+	
+		
+</table>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

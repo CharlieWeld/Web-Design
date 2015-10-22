@@ -1,0 +1,20 @@
+body {background-color: #7D3714}
+
+header {text-align: center;}
+
+#wrapper {background-color: red;
+		   margin-left: auto;
+		   margin-right: auto;
+		   width: 70%; height: 600px;
+		  
+		   
+		   }
+#container { height: 20%;}
+
+#left{position: relative; background-color: blue; margin: 0px; width: 33%; height: 100%; float: left; }		   
+
+		
+nav {position: relative; background-color: yellow; margin: 0; width: 34%;  height: 100%;float:right;}
+
+#right {position: relative; background-color: white; margin: 0; width: 33%;  height: 100%;float: right;}
+		   

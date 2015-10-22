@@ -1,0 +1,45 @@
+/* Clear the margins and padding from these tags*/
+dl, p, div, h1, img, ul, li, a{ padding: 0; margin: 0;}
+
+/* Set all headers to italic, 30 and Times New Roman*/
+h1 {font: italic bold 30px "courier new";}
+h1 {color:white; text-align: center; text-shadow: 0 4px orange;}
+dt {font-weight: bold; text-decoration: underline;}
+
+/*div.page { width: 1034px; margin-left: 110px; height: 643px; box-sizing: border-box}
+div.page {background-color: yellow; padding: 0px; border: dashed 2px orange;}
+*/
+div.page {position:static; background-color:yellow; margin-left:auto; margin-right:auto; width:81%; height:650px;
+		border: 2px dashed orange; box-sizing:border-box}
+/*div.logo {width: 90px; height:90px;}
+div.logo {position: absolute; margin: 0px 0px 0px 0px;}
+*/
+
+div.head{position:static; background-image: url("images/image6.jpg"); box-sizing:border-box; height:24%;
+		padding: 0px; border: none; margin: 0px 0px 0px 0px;}
+
+div.nav_frame {position:static; background-color:#EEEEE0; height:6%;}
+			 
+#nav_ul {height: 100%; text-align: center;  padding-left: 4px; }
+
+#nav_li { height: 100%; line-height:4em;   display: inline-block; margin-left: -4px; font-family: serif; font-weight: bold; font-size: 16pt;
+		 }
+#nav_a {height: 100%; line-height: 2em;  display: block; width: 150px; text-decoration: none;}
+#nav_a:link {color: black;}
+#nav_a:visited {color: purple}
+#nav_a:hover {background-color: yellow; color: blue}
+
+div.main_frame {position:static; margin: 0px 0px 0px 0px;  box-sizing: border-box;
+			  background-color: #ABCDEF; padding: 10px; height: 50%; border-top: double 1px hotpink;
+			  border-bottom: double 1px hotpink;}
+
+#lists {position:static; box-sizing: border-box; height:50%;}
+
+#services_li {font-weight: bold}
+
+div.main {position:static; box-sizing: border-box; background-image: url("images/image3.jpg");  
+		background-repeat:no-repeat; margin:0px; padding: 0px; height:50%;}
+
+div.footer {margin: 0px 0px 0px 0px;  box-sizing: border-box; }
+div.footer {background-color: #CDC673; padding: 10px 10px; height:20%; border-top: dashed 2px blue; }
+p.footer_p {font-style: italic; font-size: 14px;}

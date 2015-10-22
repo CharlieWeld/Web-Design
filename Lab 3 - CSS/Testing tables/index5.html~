@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.outer {margin-left:auto; margin-right: auto; width:70%; 
+			height: 80vh; border: 1px outset grey;
+			padding: 1px;}
+		td { border: thin inset grey; margin 1;}
+
+		#inner{width: 100%; height: 100%; border: 1px outset grey; background-color: green; padding:0; }
+
+		#banner {background-color: yellow; height: 20%}
+		#navigation {background-color: blue; height: 10%;}
+		
+		/*.outer > tbody > tr:nth-child(3) > td:first-child {background-color: red;  width: 30%}
+*/
+		#main_left > td:first-child {background-color: red;  width: 40%}		
+		
+		#footer {background-color: black; color: white;}
+		
+		
+	</style>
+</head>
+<body>
+<table class="outer">
+<tr id="banner">
+	<td colspan="2">Hello I am the banner</td>
+	
+</tr>
+
+<tr id="navigation">
+	<td  colspan="2">Hello I am the navigation</td>
+	
+</tr>
+
+<tr id="main_left">
+	<td  >Main Left</td>
+	<td>
+	<table id="inner">
+	
+		<tr>
+			<td>A nested table</td>
+		</tr>
+
+		<tr>
+			<td> A second nested table</td>
+		</tr>
+	</table>
+
+	</td>
+	
+</tr>
+
+<tr>
+	<td id="footer" colspan="2">Hello I am the navigation</td>
+	
+</tr>
+
+
+</table>
+</body>
+</html>

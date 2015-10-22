@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<table border="1px solid black">
+<tr>
+
+                             <td colspan="3" style="text-align:center">Address</td>
+
+                  </tr>
+
+                  <tr>
+
+                           <td>Town</td>
+
+                           <td>City</td>
+
+                           <td>County</td>
+
+                   </tr>
+                   </table>
+ </body>
+ </html>

@@ -1,0 +1,55 @@
+/* Clear the margins and padding from these tags*/
+dl, p, div, h1, img, ul, li, a{ padding: 0; margin: 0;}
+
+/* Set all headers to italic, 30 and Times New Roman*/
+h1 {font: italic bold 30px "courier new";}
+h1 {color:white; text-align: center; text-shadow: 0 4px orange;}
+dt {font-weight: bold; text-decoration: underline;}
+
+/*##################    Page Wrapper   #########################*/
+div.page {position:static; background-color:yellow;
+		  margin-left:auto; margin-right:auto; width:80%; 
+		  height: 650px;
+		   }
+
+/*#################   Header   ################################*/
+div.head{background-image: url("images/image6.jpg");
+		 height:20%; padding: 0; 
+		 margin: 0; background-repeat: repeat-x; position: relative;}
+
+div.logo {width: 50px; height: 50px; position: absolute; 
+ 	      left: 0; bottom: 19px; }
+
+
+/*################   Navigation   ###########################*/
+
+div.nav_frame {position:static; background-color:#D2C792; height:6%;}
+			 
+div.nav_frame ul {height: 100%; text-align: center;  padding-left: 4px; }
+
+div.nav_frame li{ height: 100%; line-height:4em;   display: inline-block; margin-left: -4px; font-family: serif; font-weight: bold; font-size: 16pt;
+		 }
+div.nav_frame a {height: 100%; line-height: 2em;  display: block; width: 150px; text-decoration: none;}
+div.nav_frame a:link {color: black;}
+div.nav_frame a:visited {color: purple}
+div.nav_frame a:hover {background-color: yellow; color: blue}
+
+div.main_frame {position:static; margin: 0px 0px 0px 0px;  box-sizing: border-box;
+			    background-color: #ABCDEF; padding: 10px; height: 54%;
+			    border-top: 1px double pink;
+			    border-bottom: 1px double blue;}
+
+iframe {height: 100%; width: 100%; }
+
+#lists {position:static; box-sizing: border-box; height:50%;}
+
+#services_li {font-weight: bold}
+
+div.main {position:static; box-sizing: border-box; background-image: url("images/image3.jpg");  
+		background-repeat:no-repeat; margin:0px; padding: 0px; height:50%;}
+
+
+
+div.footer {margin: 0px 0px 0px 0px;  box-sizing: border-box; }
+div.footer {background-color: #CDC673; padding: 10px 10px; height: 20%;}
+p.footer_p {font-style: italic; font-size: 14px;}
